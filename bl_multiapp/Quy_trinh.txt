@@ -1,0 +1,43 @@
+Đầu tiên: cd C:\Users\PhamHieuu\Downloads
+
+-------tạo project------------
+    idf.py create-project bl_multiapp
+    cd bl_multiapp
+    idf.py set-target esp32
+
+--------Cấu hình bảng phân vùng và bộ nhớ flash--------
+    Tạo file partitions_table.csv và lưu vào cùng cấp buid  
+
+    idf.py menuconfig
+    Partition Table → Partition Table: chọn Custom partition table CSV
+    Custom partition CSV file: gõ partitions_table.csv (chỉ tên file)
+    Serial flasher config → Flash size: chọn 4 MB (hoặc 8 MB nếu board 8MB)
+
+    idf.py fullclean
+    idf.py build
+    rmdir /s /q build
+
+    idf.py -v bootloader
+    idf.py partition-table
+
+_________flash Code________________
+    -----nạp bootloader-------
+    esptool.py --chip esp32 --port COM3 --baud 460800 write_flash 0x1000 build\bootloader\bootloader.bin
+
+    -----nạp phân vùng--------
+    esptool.py --chip esp32 --port COM3 --baud 460800 write_flash 0x8000  build\partition_table\partition-table.bin
+
+    -----nạp ứng dụng--------
+    esptool.py --chip esp32 --port COM3 --baud 460800 write_flash 0x10000  p1.ino.bin
+    esptool.py --chip esp32 --port COM3 --baud 460800 write_flash 0x90000  p2.ino.bin 
+    esptool.py --chip esp32 --port COM3 --baud 460800 write_flash 0x110000 p3.ino.bin 
+    esptool.py --chip esp32 --port COM3 --baud 460800 write_flash 0x190000 p4.ino.bin
+
+
+
+
+-------------------Cấu trúc lọc serial--------------
+
+____Start run partition_<username>____
+     <nội dung của user đó...>
+____End run partition_<username>____

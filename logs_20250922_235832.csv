@@ -1,0 +1,85 @@
+id,user_id,username,event,details,ip,ts
+84,2,hs1,login,success,192.168.92.1,2025-09-22T23:57:02+07:00
+83,3,hs2,login,success,192.168.92.144,2025-09-22T23:47:42+07:00
+82,2,hs1,login,success,192.168.92.144,2025-09-22T23:43:34+07:00
+81,9,hs44,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs44\Partitons.ino_1.bin;port=COM3;chip=esp32;baud=115200;offset=0x190000;rc=0;stdout_len=1658;stderr_len=0,192.168.92.144,2025-09-22T23:42:58+07:00
+80,9,hs44,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x190000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs44\Partitons.ino_1.bin,192.168.92.144,2025-09-22T23:42:41+07:00
+79,9,hs44,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs44\Partitons.ino_1.bin;firmware_id=17,192.168.92.144,2025-09-22T23:42:34+07:00
+78,9,hs44,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs44\Partitons.ino.bin;port=COM3;chip=esp32;baud=115200;offset=0x190000;rc=0;stdout_len=1657;stderr_len=0,192.168.92.144,2025-09-22T23:41:41+07:00
+77,9,hs44,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x190000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs44\Partitons.ino.bin,192.168.92.144,2025-09-22T23:41:25+07:00
+76,9,hs44,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs44\Partitons.ino.bin;firmware_id=16,192.168.92.144,2025-09-22T23:41:20+07:00
+75,9,hs44,login,success,192.168.92.144,2025-09-22T23:41:16+07:00
+74,5,hs4,login_failed,bad password,192.168.92.144,2025-09-22T23:40:16+07:00
+73,5,hs4,login_failed,bad password,192.168.92.144,2025-09-22T23:39:49+07:00
+72,5,hs4,login_failed,bad password,192.168.92.144,2025-09-22T23:39:44+07:00
+71,4,hs3,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Partitons.ino_2.bin;port=COM3;chip=esp32;baud=115200;offset=0x110000;rc=0;stdout_len=1659;stderr_len=0,192.168.92.144,2025-09-22T23:38:59+07:00
+70,4,hs3,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x110000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Partitons.ino_2.bin,192.168.92.144,2025-09-22T23:38:43+07:00
+69,4,hs3,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Partitons.ino_2.bin;firmware_id=15,192.168.92.144,2025-09-22T23:38:38+07:00
+68,4,hs3,login,success,192.168.92.144,2025-09-22T23:38:17+07:00
+67,3,hs2,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs2\Partitons.ino_1.bin;port=COM3;chip=esp32;baud=115200;offset=0x90000;rc=0;stdout_len=1657;stderr_len=0,192.168.92.144,2025-09-22T23:36:19+07:00
+66,3,hs2,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x90000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs2\Partitons.ino_1.bin,192.168.92.144,2025-09-22T23:36:03+07:00
+65,3,hs2,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs2\Partitons.ino_1.bin;firmware_id=14,192.168.92.144,2025-09-22T23:35:58+07:00
+64,3,hs2,login,success,192.168.92.144,2025-09-22T23:35:52+07:00
+63,2,hs1,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_4.bin;port=COM3;chip=esp32;baud=115200;offset=0x10000;rc=0;stdout_len=1658;stderr_len=0,192.168.92.144,2025-09-22T23:34:50+07:00
+62,2,hs1,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x10000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_4.bin,192.168.92.144,2025-09-22T23:34:33+07:00
+61,2,hs1,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_4.bin;firmware_id=13,192.168.92.144,2025-09-22T23:34:31+07:00
+60,2,hs1,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_3.bin;port=COM3;chip=esp32;baud=115200;offset=0x10000;rc=0;stdout_len=1657;stderr_len=0,192.168.92.144,2025-09-22T23:33:34+07:00
+59,2,hs1,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x10000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_3.bin,192.168.92.144,2025-09-22T23:33:18+07:00
+58,2,hs1,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_3.bin;firmware_id=12,192.168.92.144,2025-09-22T23:33:15+07:00
+57,2,hs1,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_2.bin;port=COM3;chip=esp32;baud=115200;offset=0x10000;rc=0;stdout_len=1657;stderr_len=0,192.168.92.144,2025-09-22T23:32:11+07:00
+56,2,hs1,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x10000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_2.bin,192.168.92.144,2025-09-22T23:31:55+07:00
+55,2,hs1,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_2.bin;firmware_id=11,192.168.92.144,2025-09-22T23:31:54+07:00
+54,2,hs1,login,success,192.168.92.144,2025-09-22T23:31:43+07:00
+53,4,hs3,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Partitons.ino_1.bin;firmware_id=10,192.168.92.144,2025-09-22T23:30:50+07:00
+52,4,hs3,login,success,192.168.92.144,2025-09-22T23:30:36+07:00
+51,2,hs1,login,success,192.168.92.144,2025-09-22T23:30:23+07:00
+50,2,hs1,login,success,192.168.92.144,2025-09-22T23:20:03+07:00
+49,2,hs1,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_1.bin;port=COM3;chip=esp32;baud=115200;offset=0x10000;rc=0;stdout_len=1665;stderr_len=0,192.168.92.144,2025-09-22T23:14:46+07:00
+48,2,hs1,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x10000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_1.bin,192.168.92.144,2025-09-22T23:14:28+07:00
+47,2,hs1,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino_1.bin;firmware_id=9,192.168.92.144,2025-09-22T23:14:23+07:00
+46,2,hs1,login,success,192.168.92.144,2025-09-22T23:13:46+07:00
+45,2,hs1,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino.bin;port=COM3;chip=esp32;baud=115200;offset=0x10000;rc=0;stdout_len=1657;stderr_len=0,192.168.92.144,2025-09-22T23:10:17+07:00
+44,2,hs1,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x10000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino.bin,192.168.92.144,2025-09-22T23:10:01+07:00
+43,2,hs1,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino.bin;port=COM3;chip=esp32;baud=115200;offset=0x10000;rc=2;stdout_len=118;stderr_len=215,192.168.92.144,2025-09-22T23:09:34+07:00
+42,2,hs1,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x10000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino.bin,192.168.92.144,2025-09-22T23:09:34+07:00
+41,2,hs1,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs1\Partitons.ino.bin;firmware_id=8,192.168.92.144,2025-09-22T23:09:30+07:00
+40,2,hs1,login,success,192.168.92.144,2025-09-22T23:09:21+07:00
+39,2,hs1,login,success,192.168.92.144,2025-09-22T22:57:11+07:00
+38,3,hs2,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs2\Partitons.ino.bin;firmware_id=7,192.168.92.144,2025-09-22T22:49:51+07:00
+37,3,hs2,login,success,192.168.92.144,2025-09-22T22:49:31+07:00
+36,2,hs1,login,success,192.168.92.144,2025-09-22T22:42:15+07:00
+35,,,login_failed,no such user,192.168.92.144,2025-09-22T22:42:09+07:00
+34,4,hs3,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Partitons.ino.bin;port=COM3;chip=esp32;baud=115200;offset=0x110000;rc=0;stdout_len=1657;stderr_len=0,192.168.92.144,2025-09-22T22:08:38+07:00
+33,4,hs3,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x110000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Partitons.ino.bin,192.168.92.144,2025-09-22T22:08:21+07:00
+32,4,hs3,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Partitons.ino.bin;port=COM3;chip=esp32;baud=115200;offset=0x110000;rc=2;stdout_len=118;stderr_len=215,192.168.92.144,2025-09-22T22:08:10+07:00
+31,4,hs3,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp32 --port COM3 --baud 115200 write_flash 0x110000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Partitons.ino.bin,192.168.92.144,2025-09-22T22:08:10+07:00
+30,4,hs3,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Partitons.ino.bin;firmware_id=6,192.168.92.144,2025-09-22T22:08:07+07:00
+29,4,hs3,login,success,192.168.92.144,2025-09-22T22:05:54+07:00
+28,2,hs1,login_failed,disabled,192.168.92.144,2025-09-22T22:05:48+07:00
+27,3,hs2,login,success,192.168.92.144,2025-09-22T22:05:41+07:00
+26,3,hs2,login,success,192.168.92.144,2025-09-22T22:04:28+07:00
+25,3,hs2,login,success,192.168.92.144,2025-09-22T21:42:22+07:00
+24,2,hs1,login_failed,disabled,192.168.92.144,2025-09-22T21:42:17+07:00
+23,3,hs2,login,success,192.168.92.144,2025-09-21T16:17:22+07:00
+22,2,hs1,login_failed,disabled,192.168.92.144,2025-09-21T16:17:15+07:00
+21,4,hs3,login,success,192.168.92.144,2025-09-18T10:36:57+07:00
+20,3,hs2,login,success,192.168.92.144,2025-09-18T10:36:51+07:00
+19,2,hs1,login_failed,disabled,192.168.92.144,2025-09-18T10:36:43+07:00
+18,4,hs3,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Serial_1.ino_2.bin;port=COM3;chip=esp8266;baud=115200;rc=0;stdout_len=1828;stderr_len=0,192.168.92.144,2025-09-18T10:09:24+07:00
+17,4,hs3,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp8266 --port COM3 --baud 115200 write_flash 0x00000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Serial_1.ino_2.bin,192.168.92.144,2025-09-18T10:09:04+07:00
+16,4,hs3,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Serial_1.ino_2.bin;firmware_id=5,192.168.92.144,2025-09-18T10:09:01+07:00
+15,4,hs3,login,success,192.168.92.144,2025-09-18T10:08:56+07:00
+14,4,hs3,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Serial_1.ino_1.bin;port=COM3;chip=esp8266;baud=115200;rc=0;stdout_len=1828;stderr_len=0,192.168.92.144,2025-09-18T10:00:32+07:00
+13,4,hs3,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp8266 --port COM3 --baud 115200 write_flash 0x00000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Serial_1.ino_1.bin,192.168.92.144,2025-09-18T10:00:11+07:00
+12,4,hs3,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Serial_1.ino_1.bin;firmware_id=4,192.168.92.144,2025-09-18T10:00:10+07:00
+11,4,hs3,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs3\Serial_1.ino.bin;firmware_id=3,192.168.92.144,2025-09-18T09:55:18+07:00
+10,4,hs3,login,success,192.168.92.144,2025-09-18T09:54:53+07:00
+9,2,hs1,login,success,192.168.92.1,2025-09-18T00:12:58+07:00
+8,3,hs2,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs2\Serial_2.ino.elf;firmware_id=2,192.168.92.144,2025-09-18T00:07:58+07:00
+7,3,hs2,flash_end,firmware=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs2\Serial_2.ino_3.bin;port=COM3;chip=esp8266;baud=115200;rc=0;stdout_len=1828;stderr_len=0,192.168.92.144,2025-09-17T23:59:55+07:00
+6,3,hs2,flash_start,cmd=C:\Users\Administrator\Documents\Pycharm\Server\.venv1\Scripts\python.exe -m esptool --chip esp8266 --port COM3 --baud 115200 write_flash 0x00000 C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs2\Serial_2.ino_3.bin,192.168.92.144,2025-09-17T23:59:35+07:00
+5,3,hs2,upload,file=C:\Users\Administrator\Documents\Pycharm\Server\firmwares\hs2\Serial_2.ino_3.bin;firmware_id=1,192.168.92.144,2025-09-17T23:59:34+07:00
+4,3,hs2,login,success,192.168.92.144,2025-09-17T23:59:28+07:00
+3,3,hs2,login,success,192.168.92.144,2025-09-17T23:59:08+07:00
+2,2,hs1,login,success,192.168.92.1,2025-09-17T23:58:52+07:00
+1,2,hs1,login_failed,bad password,192.168.92.1,2025-09-17T23:58:50+07:00
